@@ -1,0 +1,89 @@
+{
+  "id": "032a7fee-e82c-4796-99d4-a6e8e713e0c4",
+  "version": "1.1",
+  "name": "Untitled Project",
+  "url": "https://github.com",
+  "tests": [{
+    "id": "29c51fe0-53fb-4a99-bd57-ed439302256d",
+    "name": "Untitled",
+    "commands": [{
+      "id": "f69a18e8-05b3-459c-871a-fb86ca99a8c9",
+      "comment": "",
+      "command": "open",
+      "target": "/jomarnavarro/intro_automation",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35413c30-2c44-4ac3-afa5-3c1f1ded6c43",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='js-repo-pjax-container']/div[2]/div/div[4]/details/summary",
+      "targets": [
+        ["xpath=//div[@id='js-repo-pjax-container']/div[2]/div/div[4]/details/summary", "xpath:idRelative"],
+        ["xpath=//div[4]/details/summary", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "985dfbed-27e5-4697-a6b9-6bf6e34e7cf1",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='js-repo-pjax-container']/div[2]/div/div[4]/details/summary",
+      "targets": [
+        ["xpath=//div[@id='js-repo-pjax-container']/div[2]/div/div[4]/details/summary", "xpath:idRelative"],
+        ["xpath=//div[4]/details/summary", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa8608f0-81c8-46c3-9359-029c8dbb8148",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//button[@type='submit'])[8]",
+      "targets": [
+        ["xpath=(//button[@type='submit'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='js-repo-pjax-container']/div/div/ul/li[3]/form/button", "xpath:idRelative"],
+        ["xpath=//li[3]/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e9a155c-e94e-49e6-b34a-814c75b1c972",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='js-repo-pjax-container']/div[2]/div/div[3]/details/summary",
+      "targets": [
+        ["xpath=//div[@id='js-repo-pjax-container']/div[2]/div/div[3]/details/summary", "xpath:idRelative"],
+        ["xpath=//div[3]/details/summary", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbc296fe-bb62-4dda-a022-a328d20709d9",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@value='https://github.com/eliarau/intro_automation.git']",
+      "targets": [
+        ["xpath=//input[@value='https://github.com/eliarau/intro_automation.git']", "xpath:attributes"],
+        ["xpath=//div[@id='js-repo-pjax-container']/div[2]/div/div[3]/details/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//details/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "512c4e11-f0bf-4f9c-93e7-9d01580143e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=svg.octicon.octicon-clippy",
+      "targets": [
+        ["css=svg.octicon.octicon-clippy", "css"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5aff9174-ef78-4ee9-8a4c-e410edf9e82a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["29c51fe0-53fb-4a99-bd57-ed439302256d"]
+  }],
+  "urls": ["https://github.com/"],
+  "plugins": []
+}
